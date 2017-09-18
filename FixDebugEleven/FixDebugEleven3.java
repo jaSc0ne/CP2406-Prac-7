@@ -7,7 +7,7 @@ public class FixDebugEleven3 {
         FixDebugRowboat redBoat = new FixDebugRowboat();
         FixDebugRowboat blueBoat = new FixDebugRowboat();
         System.out.println("The two boats are ");
-        if(redBoat == blueBoat){
+        if(redBoat.equals(blueBoat)){
             System.out.println(" equal");
         }else{
             System.out.println(" not equal");
